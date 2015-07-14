@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/flatly-bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+  <title>Storify App</title>
+</head>
+<body class="container">
+  <div class="row">
+    <h1>{{title}} <small> by {{author.name}}</small></h1>
+    <p>{{description}}</p>
+  </div>
+  <div class="row">
+    <ul class="thumbnails">
+      {{#each elements}}
+        <li class="span3">
+          <a href="{{permalink}}" class="thumbnail" target:"_blank">
+            <img src="{{data.image.src}}" title:"{{data.image.caption}}">
+          </a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</body>
+</html>
