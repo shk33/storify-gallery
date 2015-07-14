@@ -1,0 +1,23 @@
+{
+  "name": "storify-gallery",
+  "version": "1.0.0",
+  "description": "An Express app that connect to Storify to retrieve images",
+  "main": "index.js",
+  "scripts": {
+    "test": "noe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shk33/storify-gallery.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "Miguel Coronel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shk33/storify-gallery/issues"
+  },
+  "homepage": "https://github.com/shk33/storify-gallery#readme"
+}
